@@ -23,6 +23,10 @@
   border-bottom: none;
 }
 
+.t-menu-item .t-menu-item .t-menu-anchor{
+  padding-left: 10px;
+}
+
 .t-menu-anchor{
   padding: 4px;
   text-decoration: none;
