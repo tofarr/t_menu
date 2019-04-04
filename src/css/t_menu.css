@@ -30,9 +30,13 @@
 .t-menu-anchor{
   padding: 4px;
   text-decoration: none;
-  color: inherit !important;
+  color: inherit;
   display: block;
   outline: none;
+}
+
+.t-menu-anchor:hover{
+  color: inherit;
 }
 
 .t-menu{
