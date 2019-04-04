@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>T-Menu Test</title>
+    <script type="module" src="src/js/t_menu.js"></script>
+    <link rel="stylesheet" href="src/css/t_menu.css">
+    <link rel="stylesheet" href="lib/bulma-0.7.4.min.css">
+  </head>
+  <body>
+    <div class="t-menu-bar">
+      <div class="t-menu-item">
+        <div class="t-menu-anchor" tabindex="0">Menu</div>
+        <div class="t-menu">
+          <div class="t-menu-item">
+            <a href="#" class="t-menu-anchor">Foo</a>
+          </div>
+          <div class="t-menu-item">
+            <a href="#" class="t-menu-anchor">Bar</a>
+          </div>
+          <div class="t-menu-item">
+            <div class="t-menu-anchor" tabindex="0">Submenu A</div>
+            <div class="t-menu">
+              <div class="t-menu-item">
+                <a href="#" class="t-menu-anchor">Zap</a>
+              </div>
+              <div class="t-menu-item">
+                <a href="#" class="t-menu-anchor">Bang</a>
+              </div>
+              <div class="t-menu-item">
+                <div class="t-menu-anchor" tabindex="0">Submenu B</div>
+                <div class="t-menu">
+                  <div class="t-menu-item">
+                    <a href="#" class="t-menu-anchor">Pop</a>
+                  </div>
+                  <div class="t-menu-item">
+                    <a href="#" class="t-menu-anchor">Whizz</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="section content">
+      <h1 class="title is-2">Menu Test</h1>
+      <p>This is an example of a menu build using pure CSS 3 - no javascript!</p>
+      <ul>
+        <li>It would be trivial to put other items (Such as Icons) in the menu</li>
+        <li>Bulma is included for the purpost of this demo page but is not required</li>
+        <li>Latest release is available <a href="releases/t-menu-1.0.0-min.css">here</a></li>
+      </ul>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+
+.t-menu-bar div,.t-menu div{
+  box-sizing: content-box;
+}
+
+.t-menu-bar{
+  width: 100%;
+  background: #06C;
+  color: #FFF;
+  position: absolute;
+}
+
+.t-menu-item{
+  background: #06C;
+  color: #FFF;
+  border: 1px solid #06C;
+  cursor: pointer;
+  transition: color 0.4s linear, background-color 0.4s linear;
+}
+.t-menu-item .t-menu-item{
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.t-menu-anchor{
+  padding: 4px;
+  text-decoration: none;
+  color: inherit !important;
+  display: block;
+  outline: none;
+}
+
+.t-menu{
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease-out;
+}
+
+.t-menu-item:focus-within,
+.t-menu-item:hover{
+  color: #06C;
+  background: #FFF;
+}
+
+.t-menu-item:focus-within>.t-menu,
+.t-menu-item:hover>.t-menu{
+  max-height: 1500px;
+  transition: max-height 0.4s ease-in;
+}
